@@ -1,4 +1,14 @@
-#About Sonarum
+# About Sonarum
+
+## Principles
+
+There are principles that should be adopted to avoid privacy and security issues before they happen
+
+## Methods
+
+- Collecting Personal or Sensitive Information Strategies:
+    - SMS Link Strategy: The personal or sensitive information gathering step is diverted to a link sent by SMS to the users phone. Information is gathered from the user securely using text instead of audio or video.
+    - Flow Control Strategy: When the step for collecting information arrives the question is posed by the AI but the answer is only received by Sonarum that masks the audio and shares the edited version with the AI. When the AI poses the question it also sends a text request to Sonarum to mask the response from the user.
 
 ## Sonarum Project Roadmap
 
