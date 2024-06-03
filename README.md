@@ -1,12 +1,16 @@
 # About Sonarum
 
-## Principles
+## Strategies
 
-There are principles that should be adopted to avoid privacy and security issues before they happen
+- E2EE - End-to-End Encryption of text, audio, and video channels. Encrypt data in motion and data at rest.
+- Biometrics - Biometric confirmation prior to engagement deprecates the need to collect information.
+- Minimization - Design the AI to ask for minimal and non-specific information. For instance, instead of asking for exact figures or details, the system could be designed to handle ranges or categories (e.g., income ranges rather than exact amounts), reducing the sensitivity of the data exchanged.
+- Secure Data Tokens - Instead of transmitting sensitive data, use secure tokens that represent this data. The AI interacts with the tokens, which can only be decoded or used within a secure environment, ensuring that sensitive data is not exposed during processing.
 
-## Methods
 
-- Collecting Personal or Sensitive Information Strategies:
+## Tactics
+
+- Collecting Personal or Sensitive Information Tactics:
     - SMS Link Strategy: The personal or sensitive information gathering step is diverted to a link sent by SMS to the users phone. Information is gathered from the user securely using text instead of audio or video.
     - Flow Control Strategy: When the step for collecting information arrives the question is posed by the AI but the answer is only received by Sonarum that masks the audio and shares the edited version with the AI. When the AI poses the question it also sends a text request to Sonarum to mask the response from the user.
 
